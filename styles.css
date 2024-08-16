@@ -1,0 +1,249 @@
+body {
+    background-color: #0E0D06;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #0E0D06;
+}
+
+nav .nav-link {
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.custom-button {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.btn-outline-warning {
+    border-color: #dca54a;
+    color: #dca54a;
+}
+
+.btn-outline-warning:hover {
+    background-color: #dca54a;
+    color: #000;
+    border-color: #dca54a;
+}
+
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    min-height: 400px;
+    z-index: 1;
+    position: relative;
+}
+
+.hero-section .small-text {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section .btn-warning {
+    margin-top: 2rem;
+    background-color: #dca54a;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.hero-section p.lead {
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.fixed-image-section {
+    background-image: url('./media/utilaj-1.jpg'); /* Ensure your path is correct */
+    background-size: cover;
+    background-position: center;
+    height: 50vh; /* This will make the section take up 100% of the viewport height */
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    background-attachment: fixed; /* Changed from fixed to scroll */
+}
+
+.services-section {
+    background-color: #0E0D06;
+}
+
+.services-section .card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.services-section .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.services-section .card-body {
+    padding: 1.5rem;
+}
+
+.services-section .card-title {
+    margin-bottom: 1rem;
+}
+
+.services-section .card-text {
+    margin-bottom: 1.5rem;
+}
+
+.about-section {
+    background-color: #1c1c1c; /* Dark background color */
+}
+
+.about-section img {
+    border-radius: 8px;
+    max-height: 700px; /* Limit the height for consistency */
+    object-fit: cover;
+}
+
+.about-section .feature-box {
+    padding: 1.5rem;
+    background-color: #1c1c1c;
+    /*border-radius: 8px;*/
+}
+
+.about-section .feature-box h5 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-section .feature-box span {
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.about-section .feature-box-border {
+    border-left: 1px solid #dca54a;
+}
+
+.custom-p {
+    color: #dca54a;
+}
+
+.flex-grow-2 {
+    flex-grow: 2;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-grow-3 {
+    flex-grow: 3;
+}
+
+.text-container {
+    max-width: 400px;
+}
+
+.testimonials-section {
+    background-color: #0E0D06; /* Dark background to match the overall theme */
+}
+
+.custom-background {
+    background-color: #1c1c1c;
+}
+
+.testimonial {
+    position: relative;
+    border-radius: 8px;
+    padding: 1.5rem;
+    min-height: 200px; /* Ensures consistent height */
+}
+
+.quote-icon {
+    font-size: 2rem;
+}
+
+.testimonial p {
+    font-size: 1rem;
+}
+
+.testimonial img {
+    margin-right: 1rem;
+}
+
+.testimonial .fw-bold {
+    font-size: 1rem;
+}
+
+#start {
+
+}
+
+#foot {
+
+}
+
+@media (max-width: 1300px) {
+    .container,
+    .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .feature-box-border-when-small {
+        border-left: 1px solid #dca54a;
+    }
+}
+
+@media (max-width: 500px) {
+    .fixed-image-section {
+        background-attachment: scroll; /* Changed from fixed to scroll */
+    }
+
+   .custom-he {
+       font-size: 1rem !important;
+   }
+}
+
+@media (max-width: 400px) {
+    .custom-he {
+        font-size: 0.9rem !important;
+    }
+}
+
+.custom-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 50px;
+}
+
+.custom-font-weight {
+    font-weight: 200;
+}
